@@ -6,3 +6,26 @@
     background-position: center;
     background-size: cover;
 }
+
+.quote_clientes {
+    padding: 30px 0;
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.quote_clientes p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+.quote_clientes cite {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    float: right;
+    font-style: normal;
+}

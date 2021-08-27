@@ -8,8 +8,9 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/portifolio.css">
-	<title>BikeCraft Portfólio</title>
+  <link rel="stylesheet" href="css/sobre.css">
+  <link rel="stylesheet" href="css/contato.css">
+	<title>BikeCraft Contato</title>
 </head>
 <body>
 	<header class="header">
@@ -19,37 +20,52 @@
 			</a>
 			<nav class="header_menu grid-12">
 				<ul>
-					<li><a href="sobre.html" >Sobre</a></li> 
+					<li><a href="sobre.html">Sobre</a></li> 
 					<li><a href="produtos.html" >Produtos</a></li>
-					<li><a href="portifolio.html" class="menu-ativo">Portifolio</a></li>
-					<li><a href="contato.html">Contato</a></li>
+					<li><a href="portifolio.html">Portifolio</a></li>
+					<li><a href="contato.html" class="menu-ativo">Contato</a></li>
 				</ul>
 			</nav>
 		</div>
 	</header>
-  <section class="introducao-interna interna-portifolio">
+  <section class="introducao-interna interna-contato">
     <div class="container">
-      <h1>Portifolio</h1>
-      <p>conheça os projetos que amamos mostrar</p>
+      <h1>Contato</h1>
+      <p>tire as suas duvidas com a gente</p>
     </div>
   </section>
 
-  <section class="container">
-    <blockquote class="quote_clientes">
-      <p>"No mundo atual a continua expansão de nossa 
-        atividade cumpre um papel essencial na formulação da
-        gestão inovadora da qual fazemos parte."</p>
-        <cite>Barbara Moos</cite>
-    </blockquote>
-  </section>
-  <section class="portifolio">
-	  <div class="container">
-      <ul class="portifolio_lista">
-        <li class="grid-8"><img src="img/portfolio/retro.jpg" alt="Bicileta retro"></li>
-        <li class="grid-8"><img src="img/portfolio/passeio.jpg" alt="Bicileta passeio"></li>
-        <li class="grid-16"><img src="img/portfolio/esporte.jpg" alt="Bicileta esporte"></li>
+  
+
+  <section class="contato container">
+    <form id="form_orcamento" class="grid-8 contato_form" >
+      <label for="nome">Nome</label>
+      <input type="text" id="nome">
+      <label for="email">E-mail</label>
+      <input type="email" id="email" placeholder="name@company.com">
+      <label for="email">Telefone</label>
+      <input type="tel" id="telefone" placeholder="(xx)x xxxx-xxxx">
+      <label for="mensagem">Mensagem</label>
+      <textarea name="mensagem" id="mensagem" cols="30" rows="6"></textarea>
+      <button type="submit" class="btn btn-preto">Enviar</button>
+    </form>
+    <div class="contato_dados grid-8">
+      <h3>Dados</h3>
+      <span>+55 21 9999-9999</span>
+      <span>orçamento@bikecraft.com</span>
+      <span>Rua Ali Perto - Botafogo</span>
+      <span>Rio De Janeiro - Rj - BRASIL</span>
+      <h3>Redes Sociais</h3>
+      <ul>
+        <li><a href="https://facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook bikecraft"></a></li>
+        <li><a href="https://instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram bikecraft"></a></li>
+        <li><a href="https://twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="twitter bikecraft"></a></li>
       </ul>
-	  </div>
+    </div>
+  </section>
+
+  <section class="container contato_mapa">
+    <a href="https://www.google.com.br/maps" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="endereço bikecraft"></a>
   </section>
 
   <section class="quebra">

@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+.interna-contato {
+    background-image: url("../img/bg-contato.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contato {
+    padding: 30px 0;
+}
+
+.orcamento h2::after {
+    background-color: #FEC63E;
+}
+
+.contato_form {
+    padding: 35px 60px 0 0;
+}
+
+.contato_form label {
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 2px 0;
+    
+}
+
+.contato_form input {
+    display: block;
+    width: 100%;
+    border: 3px solid #FEC63E;
+    background: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    padding: 4px 3px;
+    margin-bottom: 10px;
+}
+
+.contato_form textarea {
+    display: block;
+    width: 100%;
+    border: 3px solid #FEC63E;
+    background: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    outline: none;
+    padding: 4px 3px;
+    margin-bottom: 10px;
+}
+
+.contato_form button {
+    padding: 7px 40px;
+    background: none;
+    border-radius: 0;
+    margin-top: 15px;
+}
+.contato_dados {
+    padding: 35px 0;
+}
+
+.contato_dados h3 {
+    color: #FEC63E;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contato_dados span {
+    display: block;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+
+.contato_dados span:nth-of-type(even) {
+    margin-bottom: 30px;
+}
+
+
+.contato_dados p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 10px 0 5px 0;
+}
+
+
+.contato_dados ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.contato_dados ul li a {
+    border: 3px;
+    border-color: #FEC63E;
+    border-style: solid;
+    border-radius: 10px;
+    display: block;
+    padding: 8px;
+}
+
+.contato_dados ul li a:hover {
+    border-color: rgb(0, 0, 0);
+}
+
+.contato_mapa {
+    margin-bottom: 60px;
+}
+
